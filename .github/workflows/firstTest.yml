@@ -2,7 +2,7 @@ name: helloWorldScript
 on: workflow_dispatch
 jobs: 
   firstJob:
-    run-on: windows-latest
+    runs-on: windows-latest
     steps:
       -name: HelloWorld
       -run: echo "Hello World!"

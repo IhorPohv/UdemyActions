@@ -4,5 +4,5 @@ jobs:
   firstJob:
     runs-on: windows-latest
     steps:
-      -name: HelloWorld
-      -run: echo "Hello World!"
+      - name: HelloWorld
+        run: echo "Hello World!"
